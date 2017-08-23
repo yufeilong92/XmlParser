@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MyAndroidl.html</title>
+
+	<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+	<meta http-equiv="description" content="this is my page">
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+	<!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+	<style type="text/css">
+p {
+	font-size: 28px;
+	color: red;
+	text-align: center;
+}
+</style>
+
+	<script type="text/javascript">
+	function javashow(name) {
+
+		document.getElementById("demo").innerHTML="sb"+name
+	}
+	function show(){
+		alert("222222")
+	}
+</script>
+
+</head>
+
+<body>
+<h1>这是我的第一个javaScipt</h1>
+<p id="demo">这是一个段落</p>
+<input type="button" value="点击调用java代码" onclick="window.android.javashow('小米')" />
+<input type="button" value="点击调用java代码弹窗" onclick="window.android.show()" />
+</body>
+</html>

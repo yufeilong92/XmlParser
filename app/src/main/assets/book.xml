@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<books>
+    <book>
+        <id>1001</id>
+        <name>Thinking in java</name>
+        <price>80.00</price>
+    </book>
+    <book>
+        <id>1002</id>
+        <name>Konltion</name>
+        <price>90.00</price>
+    </book>
+    <book>
+        <id>1003</id>
+        <name>Hello,Android</name>
+        <price>180.00</price>
+    </book>
+</books>
